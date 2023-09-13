@@ -1,0 +1,117 @@
+ 1  touc file{1,2,3,4,5,}.txt
+    2  touch file{1,2,3,4,5,}.txt
+    3  ls -la
+    4  vim -O file1.txt file2.txt file3.txt
+    5  cat file1.txt
+    6  cat file2.txt
+    7  vim file 4.txt
+    8  cat file4.txt
+    9  clear
+   10  cat file4.txt
+   11  vim file4.txt
+   12  cat file4.txt
+   13  awk '{print $0}' file4.txt
+   14  awk '{print $3}' file4.txt
+   15  awk '{print $1, $3}' file4.txt
+   16  awk '{print NR $3}' file4.txt
+   17  awk '{print NR "-" $3}' file4.txt
+   18  awk '{print NR "." $3}' file4.txt
+   19  cat file4.txt >> file5.txt
+   20  cat file5.txt
+   21  vim file1.txt
+   22  clear
+   23  grep a file1.txt
+   24  cat file1.txt
+   25  grep A file1.txt
+   26  grep -i a file1.txt
+   27  grep -r -i a
+   28  clear
+   29  grep -r -i a file4.txt
+   30  grep -o -r -i a file4.txt
+   31* grep -o -r -i a file4.txt
+   32  grep -v -r -i a file4.txt
+   33  vim -O file1.txt file2.txt file3.txt
+   34  cat file2.txt
+   35  vim file1.txt
+   36  ls -la
+   37  clear
+   38  mkdir a b c d e
+   39  ls -la
+   40  man find
+   41  man awk
+   42  man
+   43  man -l
+   44  man --help
+   45  clear
+   46  find file1.txt
+   47  find file6
+   48  find file6.txt
+   49  pwd
+   50  cd a
+   51  find file1.txt
+   52  ls -la
+   53  ls
+   54  cd ..
+   55  ls -la
+   56  find -name file1.txt
+   57  cp file{1,2,3,4,5}.txt /root/a
+   58  cd a
+   59  ls -la
+   60  cd ..
+   61  find -name file1.txt
+   62  ls
+   63  ll
+   64  find -name -type f
+   65  find -name -type -f
+   66  find -name -typef
+   67  find -name typef
+   68  find -name type f
+   69  find -name type -f
+   70  find -name -type 'f'
+   71  pwd
+   72  find -name f
+   73  find -name -f
+   74  find -name f*
+   75  find -name "*".txt
+   76  find -name "*.txt"
+   77  find -empty -typef
+   78  find -empty -type f
+   79  find /root -typr d
+   80  find /root -type d
+   81  find /root -type f
+   82  clear
+   83  find /root -type d
+   84  find /root -type f
+   85  cat file4.txt
+   86  cat /etc/passwd
+   87  grep -n -v user /etc/passwd
+   88  grep -n user /etc/passwd
+   89  grep -n -v user /etc/passwd
+   90  grep -n -v User /etc/passwd
+   91  grep -n -v User user /etc/passwd
+   92  cat /etc/passwd
+   93  cat -n /etc/passwd
+   94  sudo useradd user1
+   95  cat -n /etc/passwd
+   96  cat /etc/passwd
+   97  grep /bin/bash /etc/passwd
+   98  clear
+   99  echo $SHELL
+  100  echo $KERNEL
+  101  tty
+  102  chvt
+  103  tty
+  104  runlevel
+  105  runlevel -help
+  106  runlevel --help
+  107  man runlevel
+  108  systemctl
+  109  systemctl get
+  110  systemctl get-default
+  111  vim -O file1.txt file2.txt file3.txt
+  112  cat file1.txt
+  113  vim -O file1.txt file2.txt file3.txt
+  114  cat file1.txt
+  115  top
+  116  history
+
